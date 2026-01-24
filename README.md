@@ -23,7 +23,6 @@ A medida que avanzo en el análisis, documento métricas clave basadas en criter
 ## 📁 Estructura del Repositorio
 * `/data`: Datasets iniciales en formato CSV.
 * `/sql`: Consultas (queries) utilizadas en BigQuery para el filtrado y agrupación.
-* `consultas_dia2.sql`: Ejercicios de filtrado con la cláusula `WHERE`.
 
 ## 🛠️ Habilidades Técnicas Aplicadas
 
