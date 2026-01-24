@@ -1,6 +1,12 @@
 
-  -- OBJETIVO: Crear un semáforo lógico basado en la composición del alimento
+-- Objetivo:
+--   Clasificar automáticamente productos según nivel de riesgo nutricional
+--   utilizando reglas de negocio basadas en la Ley de Etiquetado Frontal (AR)
+--   mediante lógica CASE WHEN sobre azúcar y sodio.
 
+-- Valor de negocio:
+--   Automatiza auditorías nutricionales y facilita la detección masiva
+--   de productos de alto riesgo para análisis regulatorio y competitivo.
 
 SELECT 
     nombre_producto,
