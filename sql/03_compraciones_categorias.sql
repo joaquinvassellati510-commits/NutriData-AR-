@@ -1,6 +1,13 @@
--- Este archivo demuestra técnicas de limpieza de datos (Sanitization) para manejar valores nulos y errores de carga manual en datasets nutricionales.
+-- Objetivo:
+--   Analizar la distribución del nivel de riesgo nutricional
+--   por categoría de producto para detectar segmentos críticos
+--   del mercado alimentario.
+--
+-- Valor de negocio:
+--   Apoya la toma de decisiones en salud pública, priorización
+--   de auditorías y estrategias de control de calidad.
 
--- Creamos una 'vista' temporal con datos sucios para practicar
+
 WITH datos_sucios AS (
   SELECT 1 as id, ' Galletitas de Avena' as nombre, NULL as marca, ' SNACKS ' as categoria, 450 as kcal
   UNION ALL SELECT 2, 'jugo de naranja', 'MarcaPropia', 'bebida', NULL
