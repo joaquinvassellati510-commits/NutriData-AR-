@@ -1,5 +1,13 @@
---Ver solo una categoría
---Sirve para comparar productos similares.
+
+-- Objetivo:
+--   Preparar el dataset para análisis nutricional confiable mediante:
+--   - Normalización de nombres de categorías y marcas
+--   - Conversión de campos nutricionales a formato numérico (azúcar y sodio)
+--   - Eliminación o tratamiento de valores nulos
+
+-- Valor de negocio:
+--   Garantiza calidad de datos para métricas, auditorías nutricionales
+--   y decisiones basadas en información consistente.
 
 SELECT nombre_producto, marca, azucares_100g
 FROM `nutricion-ar.datos_nutricionales.alimentos`
