@@ -8,6 +8,12 @@
 --   Automatiza auditorías nutricionales y facilita la detección masiva
 --   de productos de alto riesgo para análisis regulatorio y competitivo.
 
+-- Reglas de clasificación:
+--   🔴 Alto riesgo: sodio > 400 mg OR azúcar > 15 g por 100 g
+--   🟡 Riesgo medio: sodio > 200 mg OR azúcar > 8 g por 100 g
+--   🟢 Bajo riesgo: resto de los casos
+
+
 SELECT 
     nombre_producto,
     marca,
