@@ -23,16 +23,5 @@ El análisis se divide en 11 etapas que garantizan la integridad de la informaci
 
 ---
 
-## 📊 Resultados del Análisis (Enero 2026)
-Tras procesar el dataset a través de la vista consolidada, se obtuvieron los siguientes indicadores clave (KPIs):
-
-| Indicador | Resultado |
-| :--- | :--- |
-| **Productos en Alto Riesgo (🔴)** | [COMPLETAR ACÁ] % |
-| **Incumplimiento de Metas OMS** | [COMPLETAR ACÁ] productos |
-| **Promedio Azúcar (Saludable)** | [COMPLETAR ACÁ] g/100g |
-
----
-
 ## 🎓 Sobre mí
 Soy Joaquín Vassellati, estudiante de **Nutrición** y apasionado por la **Ciencia de Datos**. Mi objetivo es utilizar la tecnología para mejorar las políticas de salud pública y la soberanía alimentaria en Argentina.
