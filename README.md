@@ -1,33 +1,38 @@
 # NutriData-AR-
 
-# 🍎 NutriData-AR: Análisis de Datos Nutricionales en Argentina
+# 🍎 NutriData-AR: Auditoría Automatizada de Salud Pública
 
-## 📋 Sobre el Proyecto
-Este proyecto nace de la intersección entre la salud pública y la tecnología. El objetivo es analizar la calidad nutricional de los alimentos en el mercado argentino utilizando herramientas de análisis de datos para identificar patrones críticos de consumo y cumplimiento de normativas como la Ley de Etiquetado Frontal.
+![SQL](https://img.shields.io/badge/Language-SQL-blue)
+![BigQuery](https://img.shields.io/badge/Tool-Google%20BigQuery-orange)
+![Status](https://img.shields.io/badge/Status-Completed-success)
 
-## 👤 Sobre mí
-Soy estudiante de tercer año de **Nutrición** en la **Universidad Nacional de La Plata (UNLP)** y recientemente completé una **Diplomatura en Ciencia de Datos** en la misma institución. Mi meta para febrero de 2026 es comenzar a trabajar como **Data Analyst Freelance** enfocado en el nicho de Salud y Nutrición.
+## 📋 Descripción del Proyecto
+Este proyecto integra la **Nutrición** con la **Ciencia de Datos**. Como estudiante de 2do año de Nutrición y cursante de la Diplomatura en Ciencia de Datos en la **UNLP (Facultad de Humanidades)**, desarrollé **NutriData-AR**. 
 
-## 🛠️ Desafío Técnico y Herramientas
-Un aspecto central de este proyecto es la optimización de recursos. Trabajo con una computadora **Pentium y 4GB de RAM**, lo que me llevó a adoptar un flujo de trabajo basado 100% en la **nube**:
-* **Google BigQuery:** Para el procesamiento de grandes volúmenes de datos mediante **SQL**.
-* **GitHub:** Para el control de versiones y documentación del proceso.
-* **Google Sheets:** Para la limpieza inicial y carga de datasets.
+Es un ecosistema de scripts en SQL diseñado para auditar grandes volúmenes de datos alimentarios, automatizando la clasificación de riesgo según la **Ley de Etiquetado Frontal en Argentina** y los estándares de la **OMS**.
 
-## 🔍 Hallazgos Principales (Insights)
-A medida que avanzo en el análisis, documento métricas clave basadas en criterios bromatológicos:
-* **Alerta de Sodio:** Filtrado de productos que superan los 400mg/100g.
-* **Perfil de Azúcares:** Identificación de productos con etiquetas de "Exceso en Azúcares".
-* **Clasificación por Categorías:** Comparación de sellos de advertencia entre marcas líderes.
-
-## 📁 Estructura del Repositorio
-* `/data`: Datasets iniciales en formato CSV.
-* `/sql`: Consultas (queries) utilizadas en BigQuery para el filtrado y agrupación.
-
-## 🛠️ Habilidades Técnicas Aplicadas
-
-* **Limpieza de Datos:** Uso de `TRIM` y `UPPER` para estandarizar categorías alimenticias, eliminando inconsistencias en la carga manual.
-* **Integridad de Datos:** Aplicación de `COALESCE` para el tratamiento de valores nulos, asegurando que los cálculos y promedios nutricionales sean exactos.
-* **Eficiencia en Recursos:** Implementación de flujos de trabajo en **BigQuery** para optimizar el procesamiento en la nube, superando limitaciones de hardware local (4GB RAM).
 ---
-*Si te interesa el análisis de datos aplicado a la salud o querés colaborar, ¡no dudes en contactarme!*
+
+## 📂 Estructura del Repositorio
+El análisis se divide en 11 etapas que garantizan la integridad de la información:
+- **Limpieza y Normalización:** Estandarización de textos y tratamiento de nulos (Script 01).
+- **Semáforo Nutricional:** Lógica de clasificación automática 🔴, 🟡, 🟢 (Script 04).
+- **Relacionamiento Legal:** Cruce de datos con estándares de la OMS mediante JOINS (Scripts 07 y 08).
+- **Arquitectura de Datos:** Creación de una **VISTA (VIEW)** consolidada (Script 10).
+- **Reporte de Impacto:** Cálculo de KPIs finales y métricas de salud pública (Script 11).
+
+---
+
+## 📊 Resultados del Análisis (Enero 2026)
+Tras procesar el dataset a través de la vista consolidada, se obtuvieron los siguientes indicadores clave (KPIs):
+
+| Indicador | Resultado |
+| :--- | :--- |
+| **Productos en Alto Riesgo (🔴)** | [COMPLETAR ACÁ] % |
+| **Incumplimiento de Metas OMS** | [COMPLETAR ACÁ] productos |
+| **Promedio Azúcar (Saludable)** | [COMPLETAR ACÁ] g/100g |
+
+---
+
+## 🎓 Sobre mí
+Soy Joaquín Vassellati, estudiante de **Nutrición** y apasionado por la **Ciencia de Datos**. Mi objetivo es utilizar la tecnología para mejorar las políticas de salud pública y la soberanía alimentaria en Argentina.
